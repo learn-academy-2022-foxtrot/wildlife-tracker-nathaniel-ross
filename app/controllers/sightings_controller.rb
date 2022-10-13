@@ -1,7 +1,7 @@
 class SightingsController < ApplicationController
     def index
-        sightings = Sighting.all
-        render json: sightings
+        sightings = Sighting.where(date: params[:start_date]..params[:end_date])
+    render json: sightings
     end
 
     def show
