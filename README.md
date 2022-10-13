@@ -1,24 +1,13 @@
-# README
+# RAILS API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<!-- No view for this API -->
+# Restful Routes
+- index - gets all the things
+- show - shows one thing
+- update - updates existing data of one thing
+- create - adding new one thing 
+- destroy - deletes
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<!-- Don't need these -->
+- edit - form
+- new - form
