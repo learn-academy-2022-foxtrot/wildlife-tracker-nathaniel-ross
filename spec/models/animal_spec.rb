@@ -7,7 +7,6 @@ RSpec.describe Animal, type: :model do
     expect(animal).to be_valid
   end
   
-  
   it "is not valid without a common name" do
     animal = Animal.create(common_name: nil, scientific_binomial: 'test')
     expect(animal.errors[:common_name]).to_not be_empty
